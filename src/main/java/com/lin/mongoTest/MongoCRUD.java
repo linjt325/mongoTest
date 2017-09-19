@@ -21,7 +21,6 @@ public class MongoCRUD {
 	public void insertMany(MongoCollection<Document> mc,List<Document> docs) throws Exception{
 		
 		mc.insertMany(docs);		
-		
 	}
 	
 	
